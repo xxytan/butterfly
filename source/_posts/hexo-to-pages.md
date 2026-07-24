@@ -40,7 +40,7 @@ git config --global user.email '<useremail>'
 ## 配置 OpenSSH
 
 运行
-```bash "<useremail>"
+```bash
 ssh-keygen -t rsa -C "<useremail>"
 ```
 以生成公钥
@@ -65,7 +65,7 @@ cat ~/.ssh/id_rsa.pub
 ## 初始化仓库
 
 `cd`到博客文件夹，然后逐条运行
-```bash "<commitment>" "<username>" "<repo>"
+```bash
 # 初始化仓库
 git init
 
@@ -97,7 +97,7 @@ git push -u origin main
 > 利用GitHub Actions部署，大陆容易被墙
 
 在博客文件夹下创建`.github/workflows/pages.yml`，并填入以下内容：
-```yaml title=".github/workflows/pages.yml" "24" "24.13.0"
+```yaml
 name: Pages
 
 on:
@@ -156,10 +156,10 @@ node -v
 
 {% endnote %}
 
-打开仓库设置里的**Pages**，把**Bulid and deployment**下的**Source**从**Deploy from a branch**改为`GitHub Actions`，![](https://images.oxue.de/file/p/2/7cFgak7W.webp)
+打开仓库设置里的**Pages**，把**Bulid and deployment**下的**Source**从**Deploy from a branch**改为`GitHub Actions`，![](https://images.oxue.de/file/p/2/vP0LKZ1w.webp)
 
 返回终端，运行
-```bash "<commitment>"
+```bash
 git add .
 git commit -m "<commitment>"
 git push
@@ -169,7 +169,7 @@ git push
 ### 绑定域名
 
 在博客文件夹内创建一个`CNAME`文件，填入自定义域，然后推送变更（此处省略）
-再到你的DNS服务商添加一个值为 `<username>.github.io`的**CNAME**记录![](https://images.oxue.de/file/p/2/LeMwOfDv.webp)
+再到你的DNS服务商添加一个值为 `<username>.github.io`的**CNAME**记录
 
 继续到仓库设置的**Pages**，在右侧**Custom domain**下填入前面输入的自定义域，点`Save`，等待下方成**DNS check successful**，能成功访问自定义域就成功啦🎉![](https://images.oxue.de/file/p/2/W8pfjbCk.webp)
 
@@ -179,7 +179,7 @@ git push
 
 登录[Cloudflare 仪表盘](https://dash.cloudflare.com)，
 
-打开**计算 -- Workers and Pages**，点`创建应用程序`，再点下面的`Get started`![](https://images.oxue.de/file/p/2/kEhnEIyY.webp)
+打开**计算 -- Workers and Pages**，点`创建应用程序`，再点下面的`Get started`![](https://images.oxue.de/file/p/2/ihjQdvUT.webp)
 选择 `导入现有的 Git 存储库`，授权一下你的 GitHub，然后选择博客仓库，并填构建信息：
 - **构建命令**：`npx run build`
 - **构建输出目录**：`public`
