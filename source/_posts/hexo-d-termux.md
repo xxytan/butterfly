@@ -107,7 +107,7 @@ hexo init <folder>
 
 不要尝试在`/sdcard`初始化，否则后续安装依赖等一系列操作都会因权限不足而无法进行
 
-{% endnote}
+{% endnote %}
 
 # 结束
 
