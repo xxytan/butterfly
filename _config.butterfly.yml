@@ -49,7 +49,9 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fas fa-envelope: mailto:msbyshens@outlook.com || E-mail || '#4a7dbe'
-  fab fa-github: https://github.com/xxytan || Github || '#24292e'
+  fab fa-weibo: https://weibo.com/u/7701722034 || Weibo || '#ffa625'
+  fab fa-bilibili: https://space.bilibili.com/1580336394 || Bilibili || '#ff6699'
+  fas fa-rss: /rss.xml || RSS || '#fcc015'
 
 # --------------------------------------
 # Image Settings
@@ -188,7 +190,7 @@ index_layout: 3
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   # If you set method to 2 or 3, the length need to config
   length: 500
 
