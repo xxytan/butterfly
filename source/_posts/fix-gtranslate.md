@@ -9,15 +9,13 @@ categories: 教程
 
 # 前言
 
-22年9月下旬，谷歌翻译以“使用率低”而退出了中国。至此，除了广告服务以外，谷歌所有业务均已退出中国  
+22年9月下旬，谷歌翻译以“使用率低”暂停了在中国大陆的运营。至此，除了广告服务以外，谷歌所有业务均已退出中国  
 事实对于我来说好似晴天霹雳，但好在还有[必应翻译](https://bing.com/translator)  
 出这篇文章也是急性而起，下文提到的项目也是很久之前就有的了，但是仍能够使用
 
 # 准备
 
-打开此GitHub仓库
-::github{repo="Ponderfly/GoogleTranslateIpCheck"}
-根据系统自行选择下载
+打开[此GitHub仓库](https://github.com/Ponderfly/GoogleTranslateIpCheck)，到**Releases**根据系统自行选择下载
 
 解压下载得的压缩包，会获得一个命名为`系统-架构`的文件夹，其中仅包含四个文件，前缀为`GoogleTranslateIpCheck`的文件是我们主要关注的
 

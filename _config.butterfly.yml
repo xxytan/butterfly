@@ -19,11 +19,13 @@ nav:
 
 menu:
   主页: / || fas fa-home
-  归档: /archives || fas fa-archive
-  分类: /categories || fas fa-folder-open
-  标签: /tags || fas fa-tags
-  友链: /links || fas fa-user-group
-  随言: /words || fas fa-message
+  文章 || fas fa-align-right || hide:
+    归档: /archives || fas fa-archive
+    分类: /categories || fas fa-folder-open
+    标签: /tags || fas fa-tags
+  社交 || fas fa-heart || hide:
+    友链: /links || fas fa-user-group
+    随言: /words || fas fa-message
   关于: /about || fas fa-circle-info
 
 # --------------------------------------
@@ -264,6 +266,29 @@ noticeOutdate:
 # --------------------------------------
 footer:
   nav:
+    - content:
+        - title: 其他站点
+          item:
+            - title: 资源分发
+              url: https://www.zeas.top
+            - title: 资源加速
+              url: https://speed.oxue.de
+            - title: 探针
+              url: https://status.oxue.de
+    - content:
+        - title: 挂件
+          item:
+            - html: <a href="https://blogs.quest" target="_blank" title="在BlogsClub成员博客间穿梭">
+                    <img alt="BlogsClub" src="https://www.blogsclub.org/images/shuttle_15.svg" width="100">
+                    </a>
+            - title: 四年之约
+              url: https://www.blogsclub.org/certificate/10000179
+    - content:
+        - title: 致谢
+          item:
+            - html: <a title="由Cloudflare提供CDN即静态资源上线服务" href="https://www.cloudflare.com">
+                    <img alt="赛博活佛" src="https://images.oxue.de/file/badge/cf.svg" />
+                    </a>
   owner:
     enable: true
     since: 2025

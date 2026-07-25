@@ -2,11 +2,12 @@
 title: 一些关于
 date: 2026-07-25 09:55:32
 top_img: transparent
+comments: false
 ---
 
 # 站长
 
-&emsp;&emsp;**Kentural**，坐标:spoiler[珠琳]，一名正在接受义务教育的普通中学生
+**Kentural**，小镇上一名正在接受义务教育的普通中学生
 - ✅成绩良好，爱好英语、计算机
 - ❓性格未知，性别未知
 - 📱有参于手机的使用过程，手机使用权的最大股东
@@ -26,7 +27,7 @@ top_img: transparent
 |Hexo|[AnZhiYu](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/)|≈1m||跟风，觉得很Modern|
 |Hexo|[NexT](https://github.com/next-theme/hexo-theme-next)|≈1m||追求更简洁、强大的主题|
 |Astro|[Mizuki](https://github.com/matsuzaka-yuki/mizuki)|≈1m||博客框架变更<br>好其对新手友好，且美观、功能强大|
-|Astro|[Firefly](https://github.com/CuteLeaf/Firefly)|*忘了*||好其文件目录直观|
+|Astro|[Firefly](https://github.com/CuteLeaf/Firefly)|*忘了，反正很长🌚*||好其文件目录直观|
 
 ## 浏览提示
 
@@ -42,4 +43,3 @@ top_img: transparent
 - 本站已加入[中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)  
 - 本站已加入[BlogFinder](https://bf.zzxworld.com/s/1773)
 - 本站已加入[BlogsClub](https://www.blogsclub.org/blog/609.html)
-
