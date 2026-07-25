@@ -25,15 +25,18 @@ pkg install git openssh -y
 > 以[GitHub](https://github.com)做演示
 
 逐条运行
-```bash /<user(?:name>|email>)/
+```bash
 git config --global user.name '<username>'
 git config --global user.email '<useremail>'
 ```
-:::caution
+
+{% note default %}
+
 `<username>` → *GitHub用户名*  
 `<useremail>` → *GitHub绑定邮箱*  
 **下文出现依旧**
-:::
+
+{% endnote %}
 
 以做 Git 全局配置
 

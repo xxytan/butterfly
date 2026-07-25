@@ -58,7 +58,7 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.ico
+favicon: /assets/favicon.ico
 
 avatar:
   img: 'https://q1.qlogo.cn/g?b=qq&nk=2814836281&s=640'
@@ -98,7 +98,7 @@ footer_img: transparent
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: /img/b1.webp
+background: /assets/b1.webp
 
 cover:
   # Disable the cover or not
@@ -220,9 +220,9 @@ reward:
   enable: true
   text: 赞助小猪
   QR_code:
-    - img: /img/sponsor/wechat.webp
+    - img: /assets/sponsor/wechat.webp
       text: 微信
-    - img: /img/sponsor/alipay.webp
+    - img: /assets/sponsor/alipay.webp
       text: 支付宝
 
 # Post edit
@@ -304,7 +304,7 @@ aside:
   card_recent_post:
     enable: true
     # If set 0 will show all
-    limit: 5
+    limit: 4
     # Sort: date / updated
     sort: date
     sort_order:
@@ -548,7 +548,7 @@ comments:
   # If you set it to true, the comment count will be invalid
   lazyload: false
   # Display comment count in post's top_img
-  count: true
+  count: false
   # Display comment count in Home Page
   card_post_count: false
 
@@ -800,8 +800,8 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # Loading Animation
 preloader:
@@ -811,7 +811,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://cdn.jsdmirror.com/npm/pace-js@1.2.4/themes/blue/pace-theme-barber-shop.css
+  pace_css_url: https://jsdmirror.cn/npm/pace-js@1.2.4/themes/blue/pace-theme-barber-shop.css
 
 # Page Transition
 enter_transitions: true
@@ -899,7 +899,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
@@ -907,6 +907,7 @@ clickShowText:
   enable: true
   text:
     - HELLO
+    - HALO
     - BONJOUR
     - CHRIST!
     - OOPS…
@@ -1083,14 +1084,14 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: unpkg
+  third_party_provider: custom
 
   # Add version number to url, true or false
-  version: true
+  version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format:
+  custom_format: https://jsdmirror.cn/npm/${name}@latest/${file}
 
   option:
     # abcjs_basic_js:

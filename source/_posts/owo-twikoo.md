@@ -14,7 +14,7 @@ Twikoo官方文档好像没有将做表情包，当然Twikoo默认也内置了�
 
 # 开始
 
-```json title="基本语法.json" /<emoji(?:Url>|Id>)/ ","
+```json
 {
   "self-owo": {
     "type": "image",
@@ -40,9 +40,9 @@ Twikoo官方文档好像没有将做表情包，当然Twikoo默认也内置了�
 
 {% note default %}
 
-- `emojiUrl`：表情包图片链接
-- `emojiId`：表情包唯一标识
-- `,`：多个`{}`、量**之间**要加，否则不用
+`emojiUrl`：表情包图片链接
+`emojiId`：表情包唯一标识
+`,`：多个`{}`、量**之间**要加，否则不用
 
 {% endnote %}
 
