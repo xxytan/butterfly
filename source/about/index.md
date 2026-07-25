@@ -27,7 +27,7 @@ comments: false
 |Hexo|[AnZhiYu](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/)|≈1m||跟风，觉得很Modern|
 |Hexo|[NexT](https://github.com/next-theme/hexo-theme-next)|≈1m||追求更简洁、强大的主题|
 |Astro|[Mizuki](https://github.com/matsuzaka-yuki/mizuki)|≈1m||博客框架变更<br>好其对新手友好，且美观、功能强大|
-|Astro|[Firefly](https://github.com/CuteLeaf/Firefly)|*忘了，反正很长🌚*||好其文件目录直观|
+|Astro|[Firefly](https://github.com/CuteLeaf/Firefly)|4~5m||好其文件目录直观|
 
 ## 浏览提示
 
