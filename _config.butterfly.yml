@@ -24,6 +24,7 @@ menu:
   标签: /tags || fas fa-tags
   友链: /links || fas fa-user-group
   随言: /words || fas fa-message
+  关于: /about || fas fa-circle-info
 
 # --------------------------------------
 # Code Blocks Settings
@@ -49,7 +50,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fas fa-envelope: mailto:msbyshens@outlook.com || E-mail || '#4a7dbe'
-  fab fa-weibo: https://weibo.com/u/7701722034 || Weibo || '#ffa625'
+  fab fa-weibo: https://weibo.com/u/7701722034 || Weibo || '#de090d'
   fab fa-bilibili: https://space.bilibili.com/1580336394 || Bilibili || '#ff6699'
   fas fa-rss: /rss.xml || RSS || '#fcc015'
 
@@ -220,10 +221,8 @@ reward:
   text: 赞助小猪
   QR_code:
     - img: /img/sponsor/wechat.webp
-      link:
       text: 微信
     - img: /img/sponsor/alipay.webp
-      link:
       text: 支付宝
 
 # Post edit

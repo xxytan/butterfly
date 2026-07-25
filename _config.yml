@@ -114,7 +114,7 @@ feed:
     - rss.xml
   limit: 0
   hub:
-  content:
+  content: true
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
