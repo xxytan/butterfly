@@ -23,7 +23,7 @@ random: true
 "name": "站点名称",
 "link": "站点链接",
 "avatar": "站点图标",
-"desc": "站点描述"
+"descr": "站点描述"
 ```
 劳驾您按照模板在评论区留下贵站信息，或者[给我邮件](mailto;msbyshens@outlook.com)，站长**如有空闲**定会快马加鞭查阅并添加贵站信息至本页👀
 
@@ -34,6 +34,6 @@ random: true
 - **站点描述**：`无聊的一天搭配神经的我～`
 - **站点快照**：`https://images.oxue.de/file/siteshot.webp`
 
-请您在贵站按需参照如上信息添加本站❤️
+请您在贵站**按需**参照如上信息添加本站❤️
 
 <p align="center"><strong>永远欢迎您到本站浏览！</strong></p>
