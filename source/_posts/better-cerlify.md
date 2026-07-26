@@ -76,11 +76,11 @@ categories: 教程
 
 ## 效果
 
-:::note
+{% note info %}
 测速站：[Tcptest](https://www.tcptest.cn)  
 测速模式：网站测速  
 测速效果仅供参考，最后更新于**26/6/22**
-:::
+{% endnote %}
 
 ![www.oxue.de → zeas.top](https://images.oxue.de/file/p/5/z8qDirUP.webp)
 ![www.zeas.top → zeas.top](https://images.oxue.de/file/p/5/dBRKLnAJ.webp)
@@ -122,8 +122,8 @@ Netlify
 - `netlify-cname.xingpingcn.top`
 - `apex-loadbalancer.netlify.com` *官方*
 
----
-**站长维护**该优选域名。
+{% hideToggle 关于站长维护的优选域名 %}
+
 |优选域名|关于|
 |-|-|
 |`zeas.top`|抓自[WeTest.Vip](https://www.wetest.vip/page/cloudflare/address_v4.html)，三网优选|
@@ -131,3 +131,5 @@ Netlify
 |`netlify.zeas.top`|优选泛播节点➕新加坡节点|
 
 ![zeas.top实时TCPing](https://vps789.com/public/view4/42750)
+
+{% endhideToggle %}
