@@ -74,7 +74,7 @@ disable_top_img: false
 default_top_img: false
 
 # The banner image of index page
-index_img: 'https://uapis.cn/api/v1/image/bing-daily?date=2026-06-10&resolution=1080'
+index_img: /assets/b2.png # 'https://uapis.cn/api/v1/image/bing-daily?date=2026-06-10&resolution=1080'
 
 # The banner image of archive page
 archive_img:
