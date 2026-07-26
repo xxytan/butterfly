@@ -1,7 +1,7 @@
 ---
 title: 相册
 date: 2026-07-25 20:58:49
-top_img: transparent
+top_img: 'https://uapis.cn/api/v1/image/bing-daily?resolution=1080'
 comments: false
 ---
 
