@@ -20,9 +20,11 @@ comments: false
 
 ## 主题变迁
 
+> 依第一次使用至早到晚排序
+
 |框架|主题|时间|状态|使用原因|
 |-|-|-|-|-|
-|Hexo|[Fluid](https://github.com/fluid-dev/hexo-theme-fluid)|≈1m||好其MD2的简介设计|
+|Hexo|[Fluid](https://github.com/fluid-dev/hexo-theme-fluid)|≈1m||好其MD2的简洁设计|
 |Hexo|[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)|3~4m|✔|觉得前主题有些许单调<br>好其美观且功能强大|
 |Hexo|[AnZhiYu](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/)|≈1m||跟风，觉得很Modern|
 |Hexo|[NexT](https://github.com/next-theme/hexo-theme-next)|≈1m||追求更简洁、强大的主题|
@@ -32,7 +34,6 @@ comments: false
 ## 浏览提示
 
 1. 如需修改**评论区头像**，请参阅[Twikoo文档](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E5%A4%B4%E5%83%8F)
-~~2. [相册](/gallery)中的图片均重新裁剪过，如需原图可以联系站长下载~~
 
 ## 其他
 
