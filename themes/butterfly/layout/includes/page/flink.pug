@@ -5,6 +5,7 @@
 
     if flink_url || random
       - const linkData = flink_url ? false : site.data.link || false
+      script(src="https://registry.npmmirror.com/json5/latest/files/dist/index.min.js")
       script.
         (()=>{
           const replaceSymbol = (str) => {
@@ -46,7 +47,8 @@
           const linkData = !{JSON.stringify(linkData)}
           if (!{Boolean(flink_url)}) {
             fetch("!{url_for(flink_url)}")
-              .then(response => response.json())
+              .then(response => response.text())
+              .then(text => JSON5.parse(text))
               .then(add)
           } else if (linkData) {
             add(linkData)
