@@ -49,6 +49,62 @@ const ap = new APlayer({
             url: 'https://bucket.oxue.de/music/Nevada - Vicetone、Cozi Zuehlsdorff.mp3',
             cover: 'https://bucket.oxue.de/music/cover/Nevada - Vicetone、Cozi Zuehlsdorff.png',
             lrc: 'https://bucket.oxue.de/music/lyric/Nevada - Vicetone、Cozi Zuehlsdorff.lrc'
+        },
+        {
+            name: 'I Don\'t Want to Play Around',
+            artist: 'Ace Spectrum',
+            url: 'https://bucket.oxue.de/music/I Don\'t Want to Play Around - Ace Spectrum.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/I Don\'t Want to Play Around - Ace Spectrum.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/I Don\'t Want to Play Around - Ace Spectrum.lrc'
+        },
+        {
+            name: 'Nu ',
+            artist: 'Giulia、DJ Project',
+            url: 'https://bucket.oxue.de/music/Nu - Giulia、DJ Project.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Nu - Giulia、DJ Project.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Nu - Giulia、DJ Project.lrc'
+        },
+        {
+            name: 'Trap Queen',
+            artist: 'MKJ、Eightfold',
+            url: 'https://bucket.oxue.de/music/Trap Queen - MKJ、Eightfold.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Trap Queen - MKJ、Eightfold.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Trap Queen - MKJ、Eightfold.lrc'
+        },
+        {
+            name: 'Diamonds',
+            artist: 'Rihanna',
+            url: 'https://bucket.oxue.de/music/Diamonds - Rihanna.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Diamonds - Rihanna.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Diamonds - Rihanna.lrc'
+        },
+        {
+            name: 'Merry Christmas Mr. Lawrence',
+            artist: '坂本龍一、Jaques Morelenbaum、Judy Kang',
+            url: 'https://bucket.oxue.de/music/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.lrc'
+        },
+        {
+            name: 'WHERE IS MY HUSBAND!',
+            artist: 'RAYE',
+            url: 'https://bucket.oxue.de/music/WHERE IS MY HUSBAND! - RAYE.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/WHERE IS MY HUSBAND! - RAYE.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/WHERE IS MY HUSBAND! - RAYE.lrc'
+        },
+        {
+            name: 'Where Is Your Love',
+            artist: 'J Lisk',
+            url: 'https://bucket.oxue.de/music/Where Is Your Love - J Lisk.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Where Is Your Love - J Lisk.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Where Is Your Love - J Lisk.lrc'
+        },
+        {
+            name: 'Hello',
+            artist: 'Adele',
+            url: 'https://bucket.oxue.de/music/Hello - Adele.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Hello - Adele.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Hello - Adele.lrc'
         }
     ]
 });
