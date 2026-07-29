@@ -1100,7 +1100,11 @@ inject:
     - <link rel="preconnect" href="https://fonts.googleapis.com">
     - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    - <link rel="stylesheet" href="https://registry.npmmirror.com/aplayer/1.10.1/files/dist/APlayer.min.css">
   bottom:
+    - <div id="aplayer"></div>
+    - <script src="https://registry.npmmirror.com/aplayer/1.10.1/files/dist/APlayer.min.js"></script>
+    - <script src="/assets/playlist.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
@@ -1169,7 +1173,7 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    # twikoo:
+    twikoo: https://registry.npmmirror.com/twikoo/1.7.15/files/dist/twikoo.min.js
     # typed:
     # utils:
     # valine:
