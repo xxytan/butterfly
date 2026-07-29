@@ -4,50 +4,51 @@ const ap = new APlayer({
     autoplay: false,
     loop: 'all',
     order: 'random',
+    preload: 'metadata',
     listFolded: true,
     lrcType: 3,
     audio: [
         {
             name: 'Friendship',
             artist: 'Pascal Letoublon、Leony',
-			url: 'https://images.oxue.de/file/music/UvogyRVN.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/k5G4XH3r.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/GjL5Nstf.lrc'
+			url: 'https://bucket.oxue.de/music/Friendships - Pascal Letoublon、Leony.mp3',
+            cover: 'https://bucket.oxue.de/music/Friendships - Pascal Letoublon、Leony.png',
+            lrc: 'https://bucket.oxue.de/music/Friendships - Pascal Letoublon、Leony.lrc'
         },
         {
             name: 'Una Mattina',
             artist: 'Alexandre Pachabezian',
-            url: 'https://images.oxue.de/file/music/jvaDoEuc.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/IsHOeEcS.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/lw6mpzRt.lrc'
+            url: 'https://bucket.oxue.de/music/Una Mattina - Alexandre Pachabezian.mp3',
+            cover: 'https://bucket.oxue.de/music/Una Mattina - Alexandre Pachabezian.png',
+            lrc: 'https://bucket.oxue.de/music/Una Mattina - Alexandre Pachabezian.lrc'
         },
         {
             name: 'Holiday Crasher',
             artist: 'Future Mind',
-            url: 'https://images.oxue.de/file/music/kHSkEb9a.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/VMV3HINr.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/SiuLaxsQ.lrc'
+            url: 'https://bucket.oxue.de/music/Holiday Crasher - Future Mind.mp3',
+            cover: 'https://bucket.oxue.de/music/Holiday Crasher - Future Mind.png',
+            lrc: 'https://bucket.oxue.de/music/Holiday Crasher - Future Mind.lrc'
         },
         {
             name: 'Shootout',
             artist: 'Izzamuzzic、Julien Marchal',
-            url: 'https://images.oxue.de/file/music/a89svwDW.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/jLip40Fl.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/w3kAAfFW.lrc'
+            url: 'https://bucket.oxue.de/music/Shootout - Izzamuzzic、Julien Marchal.mp3',
+            cover: 'https://bucket.oxue.de/music/Shootout - Izzamuzzic、Julien Marchal.png',
+            lrc: 'https://bucket.oxue.de/music/Shootout - Izzamuzzic、Julien Marchal.lrc'
         },
         {
             name: 'Take Me Hand',
             artist: 'DAISHI DANCE、Cécile Corbel',
-            url: 'https://images.oxue.de/file/music/hcnq0b3D.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/6ipTuzO1.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/xbwe6C1v.lrc'
+            url: 'https://bucket.oxue.de/music/Take me hand - DAISHI DANCE、Cécile Corbel.mp3',
+            cover: 'https://bucket.oxue.de/music/Take me hand - DAISHI DANCE、Cécile Corbel.png',
+            lrc: 'https://bucket.oxue.de/music/Take me hand - DAISHI DANCE、Cécile Corbel.lrc'
         },
         {
             name: 'Nevada',
             artist: 'Vicetone',
-            url: 'https://images.oxue.de/file/music/Insdy0J8.mp3',
-            cover: 'https://images.oxue.de/file/music/cover/FApeMUIg.png',
-            lrc: 'https://images.oxue.de/file/music/lyric/E1SbHFp0.lrc'
+            url: 'https://bucket.oxue.de/music/Nevada - Vicetone、Cozi Zuehlsdorff.mp3',
+            cover: 'https://bucket.oxue.de/music/Nevada - Vicetone、Cozi Zuehlsdorff.png',
+            lrc: 'https://bucket.oxue.de/music/Nevada - Vicetone、Cozi Zuehlsdorff.lrc'
         }
     ]
 });
