@@ -13,6 +13,13 @@ categories: 教程
 
 # 前言
 
+{% note warning }
+
+如果您正在使用`zeas.top`（包括`vercel.zeas.top`、`netlify.zeas.top`）优选域名，请先暂时使用其他优选域名，该优选域名将计划转移，后续可能会删除其解析记录
+与2026/07/31通知
+
+{% endnote %}
+
 因某些神秘力量、及默认泛播节点境内表现较差，部署在Cloudflare、Vercel、Netlify（*cerlify*）的站点在大陆内访问速度一言难尽，但架不住人家的免费、免实名  
 在这篇文章中，我将介绍如何优选部署在cerlify上的站点，让其**本土化**😎
 
@@ -107,22 +114,22 @@ Netlify可以选择使用已有的SSL证书，只需在 **域名管理（Domain 
 {% endnote %}
 
 CF Workers & Pages:
-- `zeas.top`
+- ~~`zeas.top`~~
 - `www.shopify.com`
 - `*.bilibiliapp.cn`
 - `*.cf.090227.xyz`
 
 Vercel:
-- `vercel.zeas.top`
+- ~~`vercel.zeas.top`~~
 - `vercel-cname.xingpingcn.top`
 - `cname.vercel-dns.com` *官方；仅必要时*
 
 Netlify
-- `netlify.zeas.top`
+- ~~`netlify.zeas.top`~~
 - `netlify-cname.xingpingcn.top`
 - `apex-loadbalancer.netlify.com` *官方*
 
-{% hideToggle 关于站长维护的优选域名 %}
+{% hideToggle 'Deprecated: 关于站长维护的优选域名' %}
 
 |优选域名|关于|
 |-|-|

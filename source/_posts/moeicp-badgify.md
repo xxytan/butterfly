@@ -42,7 +42,7 @@ categories: 教程
 > 但颜色为固定的**紫-粉**
 
 创建一个格式为**svg**的文件，用文本编辑器打开，填入以下内容：
-```html title="*.svg" "20252235号"
+```html
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20" role="img" aria-label="moeicp">
   <title>MoeICP</title>
   <linearGradient id="s" x2="0" y2="100%">
@@ -81,7 +81,7 @@ categories: 教程
   {% endnote %}
 
 - 如果需要让访客点击徽章就跳转到你的萌备详情页，需要用到`<a>`标签：
-  ```html title="仅示例.html"
+  ```html
   <a
     title="MoeICP"
     href="https://icp.gov.moe/?keyword=20252235"
