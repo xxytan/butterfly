@@ -13,10 +13,11 @@ categories: 教程
 
 # 前言
 
-{% note warning }
+{% note warning %}
 
 如果您正在使用`zeas.top`（包括`vercel.zeas.top`、`netlify.zeas.top`）优选域名，请先暂时使用其他优选域名，该优选域名将计划转移，后续可能会删除其解析记录
-与2026/07/31通知
+
+*于2026/07/31通知*
 
 {% endnote %}
 
