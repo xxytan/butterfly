@@ -6,14 +6,12 @@ const ap = new APlayer({
     order: 'random',
     preload: 'metadata',
     listFolded: true,
-    lrcType: 3,
     audio: [
         {
             name: 'Friendship',
             artist: 'Pascal Letoublon、Leony',
 			url: 'https://bucket.oxue.de/music/Friendships - Pascal Letoublon、Leony.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Friendships - Pascal Letoublon、Leony.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Friendships - Pascal Letoublon、Leony.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Friendships - Pascal Letoublon、Leony.png'
         },
         {
             name: 'Una Mattina',
@@ -25,8 +23,7 @@ const ap = new APlayer({
             name: 'Holiday Crasher',
             artist: 'Future Mind',
             url: 'https://bucket.oxue.de/music/Holiday Crasher - Future Mind.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Holiday Crasher - Future Mind.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Holiday Crasher - Future Mind.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Holiday Crasher - Future Mind.png'
         },
         {
             name: 'Shootout',
@@ -38,43 +35,37 @@ const ap = new APlayer({
             name: 'Take Me Hand',
             artist: 'DAISHI DANCE、Cécile Corbel',
             url: 'https://bucket.oxue.de/music/Take me hand - DAISHI DANCE、Cécile Corbel.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Take me hand - DAISHI DANCE、Cécile Corbel.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Take me hand - DAISHI DANCE、Cécile Corbel.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Take me hand - DAISHI DANCE、Cécile Corbel.png'
         },
         {
             name: 'Nevada',
             artist: 'Vicetone',
             url: 'https://bucket.oxue.de/music/Nevada - Vicetone、Cozi Zuehlsdorff.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Nevada - Vicetone、Cozi Zuehlsdorff.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Nevada - Vicetone、Cozi Zuehlsdorff.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Nevada - Vicetone、Cozi Zuehlsdorff.png'
         },
         {
             name: 'I Don\'t Want to Play Around',
             artist: 'Ace Spectrum',
             url: 'https://bucket.oxue.de/music/I Don%27t Want to Play Around - Ace Spectrum.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/I Don%27t Want to Play Around - Ace Spectrum.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/I Don%27t Want to Play Around - Ace Spectrum.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/I Don%27t Want to Play Around - Ace Spectrum.png'
         },
         {
             name: 'Nu ',
             artist: 'Giulia、DJ Project',
             url: 'https://bucket.oxue.de/music/Nu - Giulia、DJ Project.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Nu - Giulia、DJ Project.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Nu - Giulia、DJ Project.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Nu - Giulia、DJ Project.png'
         },
         {
             name: 'Trap Queen',
             artist: 'MKJ、Eightfold',
             url: 'https://bucket.oxue.de/music/Trap Queen - MKJ、Eightfold.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Trap Queen - MKJ、Eightfold.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Trap Queen - MKJ、Eightfold.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Trap Queen - MKJ、Eightfold.png'
         },
         {
             name: 'Diamonds',
             artist: 'Rihanna',
-            url: 'https://h1044.lanosso.com/6f0cb5b8b2bbf30ef456b8965632dacc/6a6c907a/2026/07/31/30bc0a0f42550078f0e0e8c8cb8004c6.apk?fn=Diamonds.mp3' //'https://bucket.oxue.de/music/Diamonds - Rihanna.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Diamonds - Rihanna.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Diamonds - Rihanna.lrc'
+            url: 'https://bucket.oxue.de/music/Diamonds - Rihanna.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Diamonds - Rihanna.png'
         },
         {
             name: 'Merry Christmas Mr. Lawrence',
@@ -86,22 +77,19 @@ const ap = new APlayer({
             name: 'WHERE IS MY HUSBAND!',
             artist: 'RAYE',
             url: 'https://bucket.oxue.de/music/WHERE IS MY HUSBAND! - RAYE.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/WHERE IS MY HUSBAND! - RAYE.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/WHERE IS MY HUSBAND! - RAYE.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/WHERE IS MY HUSBAND! - RAYE.png'
         },
         {
             name: 'Where Is Your Love',
             artist: 'J Lisk',
             url: 'https://bucket.oxue.de/music/Where Is Your Love - J Lisk.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Where Is Your Love - J Lisk.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Where Is Your Love - J Lisk.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Where Is Your Love - J Lisk.png'
         },
         {
             name: 'Hello',
             artist: 'Adele',
             url: 'https://bucket.oxue.de/music/Hello - Adele.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/Hello - Adele.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/Hello - Adele.lrc'
+            cover: 'https://bucket.oxue.de/music/cover/Hello - Adele.png'
         },
         {
             name: 'Wasted',
