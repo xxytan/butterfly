@@ -327,7 +327,7 @@ aside:
       link: https://github.com/xxytan
   card_announcement:
     enable: true
-    content: 又双叒叕换回Hexo了🌚
+    content: 目前评论系统正在维护，暂时无法使用，抱歉各位。
   card_recent_post:
     enable: true
     # If set 0 will show all
