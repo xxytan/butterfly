@@ -25,7 +25,7 @@ menu:
     标签: /tags || fas fa-tags
   社交 || fas fa-heart || hide:
     友链: /links || fas fa-user-group
-    随言: /words || fas fa-message
+    随言: https://me.oxue.de || fas fa-message
   相册: /gallery || fas fa-images
   关于: /about || fas fa-circle-info
 
@@ -270,6 +270,8 @@ footer:
     - content:
         - title: 其他站点
           item:
+            - title: 随言
+              url: https://me.oxue.de
             - title: 资源分发
               url: https://www.zeas.top
             - title: 资源加速

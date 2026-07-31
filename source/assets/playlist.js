@@ -53,9 +53,9 @@ const ap = new APlayer({
         {
             name: 'I Don\'t Want to Play Around',
             artist: 'Ace Spectrum',
-            url: 'https://bucket.oxue.de/music/I Don\'t Want to Play Around - Ace Spectrum.mp3',
-            cover: 'https://bucket.oxue.de/music/cover/I Don\'t Want to Play Around - Ace Spectrum.png',
-            lrc: 'https://bucket.oxue.de/music/lyric/I Don\'t Want to Play Around - Ace Spectrum.lrc'
+            url: 'https://bucket.oxue.de/music/I Don%27t Want to Play Around - Ace Spectrum.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/I Don%27t Want to Play Around - Ace Spectrum.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/I Don%27t Want to Play Around - Ace Spectrum.lrc'
         },
         {
             name: 'Nu ',
@@ -105,6 +105,13 @@ const ap = new APlayer({
             url: 'https://bucket.oxue.de/music/Hello - Adele.mp3',
             cover: 'https://bucket.oxue.de/music/cover/Hello - Adele.png',
             lrc: 'https://bucket.oxue.de/music/lyric/Hello - Adele.lrc'
+        },
+        {
+            name: 'Wasted',
+            artist: 'Murkish、huken、harmony haven',
+            url: 'https://bucket.oxue.de/music/Wasted - Murkish、huken、harmony haven.mp3',
+            cover: 'https://bucket.oxue.de/music/cover/Wasted - Murkish、huken、harmony haven.png',
+            lrc: 'https://bucket.oxue.de/music/lyric/Wasted - Murkish、huken、harmony haven.lrc'
         }
     ]
 });
