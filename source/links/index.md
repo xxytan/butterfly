@@ -3,12 +3,12 @@ title: 友情链接
 date: 2026-01-01 13:51:39
 top_img: transparent
 type: 'link'
-flink_url: 'https://file.oxue.de/json/blog/links.json5'
+flink_url: 'https://ftp.oxue.de/json/blog/links.json5'
 random: true
 ---
 
 {% note info %}
-该页面友链信息来自[外部链接](https://file.oxue.de/json/blog/links.json)，可能因某些原因而加载缓慢，还请稍安勿躁…
+该页面友链信息来自[外部链接](https://ftp.oxue.de/json/blog/links.json5)，可能因某些原因而加载缓慢，还请稍安勿躁…
 {% endnote %}
 
 ## 意见互换
