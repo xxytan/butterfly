@@ -656,7 +656,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://hi.co.ink/twikoo/
+  envId: https://224322.xyz/twikoo/
   region:
   # Use Twikoo visitor count as the page view count
   visitor: false

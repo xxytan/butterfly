@@ -116,6 +116,7 @@ Netlify可以选择使用已有的SSL证书，只需在 **域名管理（Domain 
 
 CF Workers & Pages:
 - ~~`zeas.top`~~
+- `224322.xyz`
 - `www.shopify.com`
 - `*.bilibiliapp.cn`
 - `*.cf.090227.xyz`
