@@ -98,6 +98,18 @@ const ap = new APlayer({
       artist: 'Murkish、huken、harmony haven',
       url: `${BASE_URL}/Wasted - Murkish、huken、harmony haven.mp3`,
       cover: `${BASE_URL}/cover/Wasted - Murkish、huken、harmony haven.png`
-    }
+    },
+    {
+      name: 'Childhood Memory',
+      artist: 'Bandari',
+      url: `${BASE_URL}/Childhood Memory - Bandari.mp3`,
+      cover: `${BASE_URL}/cover/Childhood Memory - Bandari.png`
+    },
+    {
+      name: 'Close Eyes',
+      artist: 'DVRST、Valerii Zaitsev',
+      url: `${BASE_URL}/Close Eyes - DVRST、Valerii Zaitsev.mp3`,
+      cover: `${BASE_URL}/cover/Close Eyes - DVRST、Valerii Zaitsev.png`
+    },
   ]
 });

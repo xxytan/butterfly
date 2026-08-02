@@ -327,7 +327,7 @@ aside:
       link: https://github.com/xxytan
   card_announcement:
     enable: true
-    content: 目前评论系统正在维护，暂时无法使用，抱歉各位。
+    content: 评论系统维护完成！
   card_recent_post:
     enable: true
     # If set 0 will show all
