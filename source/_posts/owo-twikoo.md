@@ -58,5 +58,5 @@ Twikoo官方文档好像没有将做表情包，当然Twikoo默认也内置了�
 
 |类型|*json*链接|
 |-|-|
-|QQ|[点我](https://file.oxue.de/json/owo_qq.json)|
-|酷安|[点我](https://file.oxue.de/json/owo_coolapk.json)|
+|QQ|[点我](https://ftp.oxue.de/json/owo_qq.json)|
+|酷安|[点我](https://ftp.oxue.de/json/owo_coolapk.json)|

@@ -37,9 +37,12 @@ comments: false
 
 1. 如需修改**评论区头像**，请参阅[Twikoo文档](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E5%A4%B4%E5%83%8F)
 
+## 您的隐私
+
+本站暂未使用任何收集用户个人信息的服务，故不会收集访客的IP地址、个性化等个人信息
+
 ## 其他
 
-- ~~本站由**Clarity**提供站点统计服务~~
 - 本站由[Twikoo](https://hi.co.ink/twikoo/)提供文章评论服务
 - 本站部分背景抓自[UApiPro](https://uapis.cn/api/v1/image/bing-daily?resolution=1080)
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)
