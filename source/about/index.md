@@ -39,10 +39,11 @@ comments: false
 
 ## 您的隐私
 
-本站暂未使用任何收集用户个人信息的服务，故不会收集访客的IP地址、个性化等个人信息
+本站使用利于保护您隐私的统计服务—[Umami Self-hosted](https://anal.224322.xyz)，收集的数据仅用于站点访问数据统计，不做其他任何用途
 
 ## 其他
 
+- 本站由[自托管 Umami](https://anal.224322.xyz)提供站点访问数据统计服务
 - 本站由[Twikoo](https://hi.co.ink/twikoo/)提供文章评论服务
 - 本站部分背景抓自[UApiPro](https://uapis.cn/api/v1/image/bing-daily?resolution=1080)
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)

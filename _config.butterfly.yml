@@ -737,16 +737,16 @@ microsoft_clarity:
 umami_analytics:
   enable: false
   # For self-hosted setups, configure the hostname of the Umami instance
-  serverURL:
+  serverURL: https://anal.224322.xyz
   script_name: script.js
-  website_id:
+  website_id: 77bb6963-3069-465c-8358-ccd81aa06993
   option:
   UV_PV:
     site_uv: false
     site_pv: false
-    page_pv: false
+    page_pv: true
     # Umami Cloud (API key) / self-hosted Umami (token)
-    token:
+    token: aBCml97EaFbLXPRTsfJOswCkNYm1jbHHgSoYfBskEa8GWSrDIAhPewDtT+aEJsNYvmtFVTCkVVZaDLd5KSOv3oymNMgpadP6uWfSXWUgIGg0wVcDP9wq4vQ/m6EVJeCGQDuT71bNIfpxOJNwIxH71TESJWX7k3IocCKOwukBjORCCGFgbWOn8bu9ucYBXy7qW2ZVsqkKDYkHoQRR3N4WtV44bZY2tQwhR0U+5nylZzD1WStqzVKBYhVvgSFBUJonWOTw0+5Wqp2tQ08KVXaNllHRl9W5KugnaWmXAq1gr510WVwSh0Fs7FolBv4MTHGe2+kbKY/d7ZhPwHrkjLI7+VttBiCt1EIRZihT0hX7UXRKnqhkgJdn/I7Dk5VTH1Yo68ONVgYDKOtKL1tC38JReVRqOIXs7XdB+aL1I29lrkBMF8TKdpl5juIJdtYox2uEvd7M3VFwYpxV10CLWuHdyGpRdC/80rYebLqcFBDBopivAjyZz4aU9bWOwmBrQ/v44MX5ixasFkfJ/pn3uYPi1QWPUXwVRBDkIQ2P3KL4XmJRNt7nZ4WazndO9OO1ZSL8uCaiIlC4/0ZPNVjtpVt02Ck8uc4esXZlETVFqyMKo7yqsvrP3u/s320=
 
 # https://www.googletagmanager.com/
 google_tag_manager:

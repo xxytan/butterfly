@@ -27,7 +27,7 @@ categories: 教程
 
 打开[Hoppscotch](https://hoppscotch.io/)
 - 将原先的`GET`改成`POST`，后方填
-  ```txt showLineNumbers=false
+  ```
   https://<yours>/api/auth/login
   ```
   {% note default %}
@@ -35,7 +35,7 @@ categories: 教程
   {% endnote %}
 
 - 选`Body`页，**Content Type** 选`application/json`，**Raw Request Body** 填
-  ```js
+  ```json
   {
     "username": "Umami用户名",
     "password": "Umami密码"
@@ -51,7 +51,7 @@ categories: 教程
 
 - 将27、68行 **statsUrl** 后面的`/v1`去除
 - 将31、72行改为
-  ```js title="public/js/umami-share.js" showLineNumbers=false
+  ```js
   Authorization: `Bearer ${apiKey}`
   ```
 
@@ -62,7 +62,7 @@ categories: 教程
 - `apiKey`填前面复制的`token`；  
   或者使用环境变量
 - `baseUrl`填
-  ```txt showLineNumbers=false
+  ```
   https://<yours>/api
   ```
 
