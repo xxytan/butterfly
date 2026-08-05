@@ -735,7 +735,7 @@ microsoft_clarity:
 
 # https://umami.is/
 umami_analytics:
-  enable: false
+  enable: true
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL: https://anal.224322.xyz
   script_name: script.js
