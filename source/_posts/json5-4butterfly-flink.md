@@ -17,28 +17,22 @@ description: 让你的 Butterfly 友链页支持从 json5 抓取友链信息
 # 开始
 编辑主题文件夹下的`layout/includes/page/flink.pug`：
 1. 原第七行后新增一行，用于引入 json5 支持：
-   ```
-   if flink_url || random
-     - const linkData = flink_url ? false : site.data.link || false
-     script(src="https://registry.npmmirror.com/json5/latest/files/dist/index.min.js")   // 我是第八行
-     script.
-     … // 此处省略
+   ```diff
+     if flink_url || random
+       - const linkData = flink_url ? false : site.data.link || false
+   +   script(src="https://registry.npmmirror.com/json5/latest/files/dist/index.min.js")   // 我是第八行
+       script.
+       … // 此处省略
    ```
    > 此处使用了阿里的cdn，其他像`unpkg`、`jsdelivr`也可以哦
 
 2. 修改原48到50行，以启用 json5：
-   ```
-   // 这是修改前的我
-   fetch("!{url_for(flink_url)}")
-     .then(response => response.json())
-     .then(add)
-   ```
-   ```
-   // 这是修改后的我
-   fetch("!{url_for(flink_url)}")
-     .then(response => response.text())
-     .then(text => JSON5.parse(text))
-     .then(add)
+   ```diff
+     fetch("!{url_for(flink_url)}")
+   -   .then(response => response.json())
+   +   .then(response => response.text())
+   +   .then(text => JSON5.parse(text))
+       .then(add)
    ```
 
 > 这是我[修改后的`flink.pug`](https://raw.githubusercontent.com/xxytan/butterfly/main/themes/butterfly/layout/includes/page/flink.pug)
