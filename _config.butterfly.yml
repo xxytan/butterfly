@@ -325,7 +325,7 @@ aside:
       link: https://github.com/xxytan
   card_announcement:
     enable: true
-    content: 上线统计功能
+    content: 最近音乐播放器增加了很多首音乐，部分音乐可能因疏忽而出现播放错误，如遇请想站长反馈。
   card_recent_post:
     enable: true
     # If set 0 will show all
