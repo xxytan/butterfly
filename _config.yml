@@ -106,17 +106,16 @@ search:
 
 feed:
   enable: true
-  type:
-    - atom
-    - rss2
+  type: atom
   path:
     - atom.xml
     - rss.xml
+    - feed
   limit: 0
   hub:
   content: true
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon.png
+  icon: /assets/favicon_feed.webp
   autodiscovery: true
