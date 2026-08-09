@@ -107,10 +107,7 @@ search:
 feed:
   enable: true
   type: atom
-  path:
-    - atom.xml
-    - rss.xml
-    - feed
+  path: rss.xml
   limit: 0
   hub:
   content: true
