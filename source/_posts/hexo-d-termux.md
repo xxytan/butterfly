@@ -1,26 +1,26 @@
 ---
 title: 用Termux部署Hexo
 date: 2025-08-16
+description: 轻松使用Termux部署一个属于自己的博客
 tags:
   - Termux
   - Hexo
 categories: Hexo
-description: 轻松使用Termux部署一个属于自己的博客
 ---
 
-# 前言
+## 前言
 
 此篇文章结合网络上的方法已经我个人的一些经验撰写，可能有些许不足，请谅解
 桌面端的同志仅终端不一样，其他过程都大差不差
 
-# 安装Termux
+## 安装Termux
 
 - 可以使用[原版Termux](https://github.com/termux/termux-app/releases/latest)
 - 或第三方的类似于[ZeroTermux](https://github.com/hanxinhao000/ZeroTermux/releases/latest)（以此做演示）
 
 打开后跟着向导，授予基本权限，然后我们就可以开始
 
-## 换源
+### 换源
 
 > 目的提高国内网络环境下载速度
 
@@ -32,7 +32,7 @@ termux-change-repo
 
 再度回车，选`Mirrors in Chinese Mainland`，空格并回车，等待软件包库更新完毕
 
-# 安装 Hexo
+## 安装 Hexo
 
 首先安装 Node.js
 
@@ -93,7 +93,7 @@ yarn global add hexo-cli
 
 {% endtabs %}
 
-# 站点初始化
+## 站点初始化
 
 运行
 ```bash
@@ -109,7 +109,7 @@ hexo init <folder>
 
 {% endnote %}
 
-# 结束
+## 结束
 
 给大家列举几个常用的操作命令，均为缩写，具体可以查看官方文档
 

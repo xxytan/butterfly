@@ -9,7 +9,7 @@ tags:
 categories: 教程
 ---
 
-# 前言
+## 前言
 
 最近用虚拟卡号薅了个r2存储桶，正好想尝试尝试从来没接触过的cf saas，但可谓道阻且跻  
 看了二叉大佬的教程，不知道我是有阅读障碍吗，我看到眼睛花都没搞懂（好在最后还是搞懂了🥴）
@@ -18,11 +18,11 @@ categories: 教程
 - **区域内**：*你在Cloudflare绑定的域名下*
 - **区域外**：*非区域内*
 
-## 简述 SaaS
+### 简述 SaaS
 
 SaaS初衷是让托管在非Cloudflare的域名也用上cf的cdn，当然它也是一种很不错的优选方案  
 
-# 开始
+## 开始
 
 {% note primary no-icon modern %}
 
@@ -61,7 +61,7 @@ e.g. *1.example.com，添加了**A**、**AAAA**或**CNAME**解析并且开启了
      访问 `example.org` 会得到与**你填写的自定义源服务器**相同的内容
 做完必要的验证后，待**证书状态**为**有效**，就可以尽情享受啦！
 
-## 使用场景
+### 使用场景
 
 - 让 `example.org` 做 `1.example.com` 的“镜像站”
 - 让 `example.org` 享受 Cloudflare CDN 的同时还能使用 `1.example.com` 解析的（服务器）IP地址
@@ -76,10 +76,10 @@ e.g. *1.example.com，添加了**A**、**AAAA**或**CNAME**解析并且开启了
   域名就填刚才添加的自定义主机名（example.org）
   {% endnote %}
 
-# 结束
+## 结束
 
 很难解释清楚这个SaaS的用法，网上教程也并非寡人这一则，相信你一定会理解并熟练使用的！
 
-## 其他
+### 其他
 
 SaaS生效后，你也可以在Cloudflare为你的自定义主机名写规则（页面规则、Cloud Connector…）
