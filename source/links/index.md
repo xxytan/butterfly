@@ -30,7 +30,7 @@ random: true
 以下是本站信息：
 - **站点名称**：`傲雪の`
 - **站点链接**：`https://www.oxue.de`
-- **站点头像**：`https://av.oxue.de/155360005`
+- **站点图标**：`https://av.oxue.de/155360005`
 - **站点描述**：`无聊的一天搭配神经的我～`
 - **站点快照**：`https://images.oxue.de/file/siteshot.webp`
 

@@ -241,7 +241,7 @@ const ap = new APlayer({
       name: 'You Don\'t Know Me',
       artist: 'Jax Jones、RAYE',
       url: `${BASE_URL}/You Don't Know Me - Jax Jones、RAYE.mp3`,
-      cover: `${BASE_URL}/cover/You Don't Know Me - Jax Jones、RAYE.png`
+      cover: `${BASE_URL}/cover/You Don%27t Know Me - Jax Jones、RAYE.png`
     },
     {
       name: 'Neon Rainbow',
@@ -354,8 +354,8 @@ const ap = new APlayer({
     {
       name: 'Dreamy Phonk Drift',
       artist: 'lofi\'chield',
-      url: `${BASE_URL}/Dreamy Phonk Drift - lofi'chield.mp3`,
-      cover: `${BASE_URL}/cover/Dreamy Phonk Drift - lofi'chield.png`
+      url: `${BASE_URL}/Dreamy Phonk Drift - lofi%27chield.mp3`,
+      cover: `${BASE_URL}/cover/Dreamy Phonk Drift - lofi%27chield.png`
     },
     {
       name: 'SimpsonWave1995',
@@ -373,7 +373,7 @@ const ap = new APlayer({
       name: 'Don\'t Wanna Know',
       artist: 'Maroon 5、Kendrick Lamar',
       url: `${BASE_URL}/Don't Wanna Know - Maroon 5、Kendrick Lamar.mp3`,
-      cover: `${BASE_URL}/cover/Don't Wanna Know - Maroon 5、Kendrick Lamar.png`
+      cover: `${BASE_URL}/cover/Don%27t Wanna Know - Maroon 5、Kendrick Lamar.png`
     },
     {
       name: 'Lone Ranger',
@@ -559,7 +559,7 @@ const ap = new APlayer({
       name: 'Lotta Lovin\'',
       artist: 'Barbara Evans、Fabio Mek',
       url: `${BASE_URL}/Lotta Lovin' - Barbara Evans、Fabio Mek.mp3`,
-      cover: `${BASE_URL}/cover/Lotta Lovin' - Barbara Evans、Fabio Mek.png`
+      cover: `${BASE_URL}/cover/Lotta Lovin%27 - Barbara Evans、Fabio Mek.png`
     },
     {
       name: 'You',
@@ -638,6 +638,18 @@ const ap = new APlayer({
       artist: 'Britney Spears',
       url: `${BASE_URL}/Toxic - Britney Spears.mp3`,
       cover: `${BASE_URL}/cover/Toxic - Britney Spears.png`
+    },
+    {
+      name: 'Lay Down',
+      artist: 'Caravan Palace',
+      url: `${BASE_URL}/Lay Down - Caravan Palace.mp3`,
+      cover: `${BASE_URL}/cover/Lay Down - Caravan Palace.png`
+    },
+    {
+      name: 'Dogs',
+      artist: 'HVOB',
+      url: `${BASE_URL}/Dogs - HVOB.mp3`,
+      cover: `${BASE_URL}/cover/Dogs - HVOB.png`
     }
   ]
 });
