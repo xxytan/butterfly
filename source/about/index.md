@@ -44,7 +44,7 @@ comments: false
 ## 其他
 
 - 本站由[自托管 Umami](https://anal.224322.xyz)提供站点访问数据统计服务
-- 本站由[Twikoo](https://hi.co.ink/twikoo/)提供文章评论服务
+- 本站由[Twikoo](https://224322.xyz/twikoo/)提供文章评论服务
 - 本站部分背景抓自[UApiPro](https://uapis.cn/api/v1/image/bing-daily?resolution=1080)
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)
 - 本站已加入[中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)  

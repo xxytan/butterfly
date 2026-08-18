@@ -282,10 +282,10 @@ footer:
         - title: 挂件
           item:
             - html: <a href="https://blogs.quest" target="_blank" title="在BlogsClub成员博客间穿梭">
-                    <img alt="BlogsClub" src="https://www.blogsclub.org/images/shuttle_15.svg" width="100">
+                    <img alt="BlogsClub" src="https://www.blogsclub.org/images/shuttle_15.svg" width="90">
                     </a>
             - html: <a href="https://travel.moe/go.html?travel=on" target="_blank">
-                    <img src="https://travel.moe/images/logo/default-white.png" width="24" title="异次元之旅-在萌友的世界中旅行✈️">
+                    <img src="https://travel.moe/images/logo/default-white.png" width="110" title="异次元之旅-在萌友的世界中旅行✈️">
                     </a>
             - title: 四年之约
               url: https://www.blogsclub.org/certificate/10000179
