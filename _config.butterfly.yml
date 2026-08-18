@@ -274,6 +274,8 @@ footer:
               url: https://ports.oxue.de
             - title: 资源加速
               url: https://speed.oxue.de
+            - title: 静态资源托管
+              url: https://ftp.oxue.de
             - title: 探针
               url: https://status.oxue.de
     - content:
@@ -281,6 +283,9 @@ footer:
           item:
             - html: <a href="https://blogs.quest" target="_blank" title="在BlogsClub成员博客间穿梭">
                     <img alt="BlogsClub" src="https://www.blogsclub.org/images/shuttle_15.svg" width="100">
+                    </a>
+            - html: <a href="https://travel.moe/go.html?travel=on" target="_blank">
+                    <img src="https://travel.moe/images/logo/default-white.png" width="24" title="异次元之旅-在萌友的世界中旅行✈️">
                     </a>
             - title: 四年之约
               url: https://www.blogsclub.org/certificate/10000179
