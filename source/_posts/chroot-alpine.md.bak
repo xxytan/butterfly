@@ -148,7 +148,7 @@ addgroup <username> wheel
 echo "permit persist :wheel" >> /etc/doas.d/doas.conf
 ```
 
-修改以下丑丑的主机名：
+修改以下臭臭的主机名：
 ```bash
 hostname <hostname>
 ```
