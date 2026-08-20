@@ -26,8 +26,8 @@ Chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设�
 
 先创建文件夹：
 ```bash
-mkdir /data/alpine     # 用作Chroot的根目录
-mkdir /data/temp      # 用作临时存放安装工具
+mkdir /data/alpine   # 用作Chroot的根目录
+mkdir /data/temp    # 用作临时存放安装工具
 ```
 
 {% note warning %}
@@ -65,7 +65,7 @@ export ARCH=aarch64
 cd /data/temp
 
 # 下载包
-curl -LO {$MIRROR}/latest-stable/main/{$ARCH}/apk-tools-static-3.0.7-r0.apk
+curl -LO ${MIRROR}/latest-stable/main/{$ARCH}/apk-tools-static-3.0.7-r0.apk
 
 # 解压包
 tar -xzf apk-tools-static-*.apk
