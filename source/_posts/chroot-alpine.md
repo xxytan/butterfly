@@ -27,7 +27,7 @@ Chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设�
 先创建文件夹：
 ```bash
 mkdir /data/alpine   # 用作Chroot的根目录
-mkdir /data/temp    # 用作临时存放安装工具
+mkdir /data/temp     # 用作临时存放安装工具
 ```
 
 {% note warning %}
@@ -52,10 +52,10 @@ export ARCH=aarch64
   http://mirrors.tuna.tsinghua.edu.cn/alpine  # 清华
   http://mirrors.ustc.edu.cn/alpine           # 中科大
   http://mirrors.nju.edu.cn/alpine            # 南京大学
-  http://mirrors.huaweicloud.com/alpine     # 华为云
+  http://mirrors.huaweicloud.com/alpine      # 华为云
   ```
   更多请看[官方列表](https://dl-cdn.alpinelinux.org/alpine/MIRRORS.txt)
-- 目前大部分手机都是64位处理器（`aarch64`，系统也是64位的，古早一点的手机可能会是32位处理器/系统
+- 目前大部分手机都是64位处理器（`aarch64`），系统也是64位的，古早一点的手机可能会是32位处理器/系统
   如果是32位处理器/系统 变量`ARCH`就填`armv7`或者`armhf`
 {% endnote %}
 
@@ -148,7 +148,7 @@ addgroup <username> wheel
 echo "permit persist :wheel" >> /etc/doas.d/doas.conf
 ```
 
-修改以下丑丑的主机名：
+修改一下丑丑的主机名：
 ```bash
 hostname <hostname>
 ```
