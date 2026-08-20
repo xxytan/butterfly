@@ -126,8 +126,7 @@ apk update
 
 然后安装一些基本软件：
 ```bash
-apk add \
-	bash \
+apk add bash \
 	curl \
 	wget \
 	vim \
