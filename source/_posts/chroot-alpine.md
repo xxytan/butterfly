@@ -1,20 +1,20 @@
 ---
-title: 在安卓上运行 Alpine Linux 于 Chroot
+title: 在安卓上运行 Alpine Linux 于 chroot
 date: 2026-08-20 07:43:42
-description: 在安卓设备上使用 Chroot 容器环境运行 Alpine Linux
+description: 在安卓设备上使用 chroot 容器环境运行 Alpine Linux
 tags:
   - 教程
   - Linux
-  - Chroot
+  - chroot
   - AlpineLinux
 categories: 教程
 ---
 
 ## 前言
 
-因为我一直偏向于用手机打字，也只习惯用手机键盘打字，所以也一直都是在手机上写博文。往常我都是用 Termux + TMoe 营造Chroot环境，再在容器里用Linux推送代码，但是我受够了TMoe的臃肿，于是便寻求他路
+因为我一直偏向于用手机打字，也只习惯用手机键盘打字，所以也一直都是在手机上写博文。往常我都是用 Termux + TMoe 营造chroot环境，再在容器里用Linux推送代码，但是我受够了TMoe的臃肿，于是便寻求他路
 依据[Alpine Linux 百科](https://wiki.alpinelinux.cn/wiki/Installing_Alpine_Linux_in_a_chroot)，便有了此篇文章
-Chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设备，包括安装Chroot Alpine Linux都是在安卓内置的Linux中完成
+chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设备，包括安装chroot Alpine Linux都是在安卓内置的Linux中完成
 
 ### 要求
 
@@ -26,7 +26,7 @@ Chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设�
 
 先创建文件夹：
 ```bash
-mkdir /data/alpine   # 用作Chroot的根目录
+mkdir /data/alpine   # 用作chroot的根目录
 mkdir /data/temp     # 用作临时存放安装工具
 ```
 
@@ -36,7 +36,7 @@ mkdir /data/temp     # 用作临时存放安装工具
 
 （可选）然后准备环境变量，方便我们后续安装：
 ```bash
-# 指向Chroot根目录
+# 指向chroot根目录
 export CHROOT_DIR=/data/alpine
 
 # 填入一个镜像源
@@ -52,7 +52,7 @@ export ARCH=aarch64
   http://mirrors.tuna.tsinghua.edu.cn/alpine  # 清华
   http://mirrors.ustc.edu.cn/alpine           # 中科大
   http://mirrors.nju.edu.cn/alpine            # 南京大学
-  http://mirrors.huaweicloud.com/alpine      # 华为云
+  http://mirrors.huaweicloud.com/alpine       # 华为云
   ```
   更多请看[官方列表](https://dl-cdn.alpinelinux.org/alpine/MIRRORS.txt)
 - 目前大部分手机都是64位处理器（`aarch64`），系统也是64位的，古早一点的手机可能会是32位处理器/系统
@@ -162,7 +162,7 @@ hostname <hostname>
   rm -rf /data/temp
   ```
 - Linux的环境变量在终端结束后会被清除，下次如果在用到`${CHROOT_DIR}`，在未设置变量的情况下会报错，建议直接使用容器根目录的绝对路径
-- 每次进入Chroot都会丢失变量`HOME`，导致家目录出错，我们可以在进入容器前就先设置好该变量：
+- 每次进入容器都会丢失变量`HOME`，导致家目录出错，我们可以在进入容器前就先设置好该变量：
   ```bash
   chroot /data/alpine /usr/bin/env HOME=/root /bin/ash -l
   ```
