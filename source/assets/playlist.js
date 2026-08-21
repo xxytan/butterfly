@@ -618,8 +618,8 @@ const ap = new APlayer({
     {
       name: 'Just Dance',
       artist: 'Lady Gaga、Colby O\'Donis',
-      url: `${BASE_URL}/Just Dance - Lady Gaga、Colby O'Donis.mp3`,
-      cover: `${BASE_URL}/cover/Just Dance - Lady Gaga、Colby O'Donis.png`
+      url: `${BASE_URL}/Just Dance - Lady Gaga、Colby O%27Donis.mp3`,
+      cover: `${BASE_URL}/cover/Just Dance - Lady Gaga、Colby O%27Donis.png`
     },
     {
       name: 'Wait a Minute!',
@@ -650,6 +650,12 @@ const ap = new APlayer({
       artist: 'HVOB',
       url: `${BASE_URL}/Dogs - HVOB.mp3`,
       cover: `${BASE_URL}/cover/Dogs - HVOB.png`
+    },
+    {
+      name: 'Macarena',
+      artist: 'Los del Rio',
+      url: `${BASE_URL}/Macarena - Los del Rio.mp3`,
+      cover: `${BASE_URL}/cover/Macarena - Los del Rio.png`
     }
   ]
 });
