@@ -103,7 +103,6 @@ nameserver 223.6.6.6" \
 ```bash
 echo \
 "${MIRROR}/v3.24/main
-${MIRROR}/v3.24/testing
 ${MIRROR}/v3.24/community" \
 > ${CHROOT_DIR}/etc/apk/repositories
 ```
@@ -112,10 +111,24 @@ ${MIRROR}/v3.24/community" \
 `v3.24`为我更新此篇文章时的最新正式版本，可直接打开您的镜像源去查看最新正式版本并自行替换
 {% endnote %}
 
+{% note no-icon %}
+如果你使用的是`edge`版，那么你还可以再添加一个`testing`包源：
+```bash
+echo "${MIRROR}/edge/testing" >> ${CHROOT_DIR}/etc/apk/repositories
+```
+{% endnote %}
+
 然后，<mark>我们便可正式进入我们的容器</mark>：
+```bash
+chroot ${CHROOT_DIR} /bin/su -l
+```
+
+{% note warning no-icon %}
+也可以使用以下命令进入容器，但是变量`HOME`会出错，即家目录出错（似乎仅限安卓）：
 ```bash
 chroot ${CHROOT_DIR} /bin/ash -l
 ```
+{% endnote %}
 
 ### 优化
 
@@ -145,8 +158,22 @@ adduser <username>
 addgroup <username> wheel
 
 # 准许组 wheel 的用户使用 doas
-echo "permit persist :wheel" >> /etc/doas.d/doas.conf
+echo "permit persist :wheel" >> /etc/doas.d/20-wheel.conf
 ```
+以后在普通用户需要临时提权就更简单啦：
+```bash
+doas <command>
+```
+{% note info no-icon %}
+如果想在chroot时就直接登录到普通用户，可以使用以下任一命令进入容器：
+```bash
+# 直接登录
+chroot ${CHROOT_DIR} /bin/su <username> -l
+
+# 使用用户名和密码登录
+chroot ${CHROOT_DIR} /bin/login
+```
+{% endnote %}
 
 修改一下丑丑的主机名：
 ```bash
@@ -162,9 +189,5 @@ hostname <hostname>
   rm -rf /data/temp
   ```
 - Linux的环境变量在终端结束后会被清除，下次如果在用到`${CHROOT_DIR}`，在未设置变量的情况下会报错，建议直接使用容器根目录的绝对路径
-- 每次进入容器都会丢失变量`HOME`，导致家目录出错，我们可以在进入容器前就先设置好该变量：
-  ```bash
-  chroot /data/alpine /usr/bin/env HOME=/root /bin/ash -l
-  ```
 - 每次启动和退出容器都需要挂载和卸载`/dev`、`/proc`、`/sys`
 - 如果觉得进入容器麻烦可像AI索要一个启动脚本👀
