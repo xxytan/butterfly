@@ -64,7 +64,7 @@ social:
 favicon: /assets/favicon.ico
 
 avatar:
-  img: 'http://avatar.coolapk.com/data/023/15/16/30_avatar_big.jpg?t=1772046806' # 'https://q1.qlogo.cn/g?b=qq&nk=2814836281&s=640'
+  img: 'https://q1.qlogo.cn/g?b=qq&nk=2814836281&s=640' #'http://avatar.coolapk.com/data/023/15/16/30_avatar_big.jpg?t=1772046806'
   effect: false
 
 # Disable all banner images
