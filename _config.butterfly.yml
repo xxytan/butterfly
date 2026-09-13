@@ -275,7 +275,7 @@ footer:
             - title: 资源加速
               url: https://speed.oxue.de
             - title: 静态资源托管
-              url: https://ftp.oxue.de
+              url: http://ftp.oxue.de
             - title: 探针
               url: https://status.oxue.de
     - content:
@@ -330,7 +330,7 @@ aside:
       link: https://github.com/xxytan
   card_announcement:
     enable: true
-    content: 评论系统的维护完毕
+    content: '9/13: 评论系统暂时维护'
   card_recent_post:
     enable: true
     # If set 0 will show all
