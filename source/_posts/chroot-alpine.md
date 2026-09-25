@@ -25,7 +25,7 @@ chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设�
 ### 准备
 
 先创建文件夹：
-```bash
+```sh
 mkdir /data/alpine   # 用作chroot的根目录
 mkdir /data/temp     # 用作临时存放安装工具
 ```
@@ -35,7 +35,7 @@ mkdir /data/temp     # 用作临时存放安装工具
 {% endnote %}
 
 （可选）然后准备环境变量，方便我们后续安装：
-```bash
+```sh
 # 指向chroot根目录
 export CHROOT_DIR=/data/alpine
 
@@ -60,7 +60,7 @@ export ARCH=aarch64
 {% endnote %}
 
 然后下载用于初始化 Alpine Linux 的工具包：
-```bash
+```sh
 # 转到先前创建的临时目录
 cd /data/temp
 
@@ -78,20 +78,20 @@ tar -xzf apk-tools-static-*.apk
 ### 初始化
 
 依旧位于临时目录，执行以下命令以初始化系统基本包：
-```bash
+```sh
 ./sbin/apk.static -X ${MIRROR}/latest-stable/main -U --allow-untrusted -p ${CHROOT_DIR} --initdb add alpine-base
 ```
 便会开始安装包和依赖库
 
 然后挂载容器的`/dev`、`/proc`、`/sys`：
-```bash
+```sh
 mount -o bind /dev ${CHROOT_DIR}/dev
 mount -t proc none ${CHROOT_DIR}/proc
 mount -o bind /sys ${CHROOT_DIR}/sys
 ```
 
 然后添加DNS解析服务器：
-```bash
+```sh
 echo \
 "nameserver 223.5.5.5
 nameserver 223.6.6.6" \
@@ -100,7 +100,7 @@ nameserver 223.6.6.6" \
 > 此处使用了阿里公共DNS
 
 然后添加软件包源：
-```bash
+```sh
 echo \
 "${MIRROR}/v3.24/main
 ${MIRROR}/v3.24/community" \
@@ -113,19 +113,19 @@ ${MIRROR}/v3.24/community" \
 
 {% note no-icon %}
 如果你使用的是`edge`版，那么你还可以再添加一个`testing`包源：
-```bash
+```sh
 echo "${MIRROR}/edge/testing" >> ${CHROOT_DIR}/etc/apk/repositories
 ```
 {% endnote %}
 
 然后，<mark>我们便可正式进入我们的容器</mark>：
-```bash
+```sh
 chroot ${CHROOT_DIR} /bin/su -l
 ```
 
 {% note warning no-icon %}
 也可以使用以下命令进入容器，但是变量`HOME`会出错，即家目录出错（似乎仅限安卓）：
-```bash
+```sh
 chroot ${CHROOT_DIR} /bin/ash -l
 ```
 {% endnote %}
@@ -133,12 +133,12 @@ chroot ${CHROOT_DIR} /bin/ash -l
 ### 优化
 
 可以更新一下软件包库：
-```bash
+```sh
 apk update
 ```
 
 然后安装一些基本软件：
-```bash
+```sh
 apk add bash \
 	curl \
 	vim \
@@ -146,7 +146,7 @@ apk add bash \
 ```
 
 如果你要添加普通用户用于日常使用的话：
-```bash
+```sh
 # 安装 doas（类似于 sudo）
 apk add doas
 
@@ -160,12 +160,12 @@ addgroup <username> wheel
 echo "permit persist :wheel" >> /etc/doas.d/20-wheel.conf
 ```
 以后在普通用户需要临时提权就更简单啦：
-```bash
+```sh
 doas <command>
 ```
 {% note info no-icon %}
 如果想在chroot时就直接登录到普通用户，可以使用以下任一命令进入容器：
-```bash
+```sh
 # 直接登录
 chroot ${CHROOT_DIR} /bin/su <username> -l
 
@@ -175,12 +175,12 @@ chroot ${CHROOT_DIR} /bin/login
 {% endnote %}
 
 修改一下丑丑的主机名：
-```bash
+```sh
 hostname <hostname>
 ```
 
 使用OpenRC：
-```bash
+```sh
 mkdir -p /run/openrc
 touch /run/openrc/softlevel
 
@@ -208,9 +208,9 @@ openrc
 ## 结束
 
 - 清理初始化包：
-  ```bash
+  ```sh
   rm -rf /data/temp
   ```
-- Linux的环境变量在终端结束后会被清除，下次如果在用到`${CHROOT_DIR}`，在未设置变量的情况下会报错，建议直接使用容器根目录的绝对路径
-- 每次启动和退出容器都需要挂载和卸载`/dev`、`/proc`、`/sys`
+- Linux的环境变量在终端结束后会被清除，下次如果在用到`${CHROOT_DIR}`，在未设置变量的情况下会报错，建议直接使用容器根目录的在宿主机的绝对路径
+- 在使用完容器后建议卸载`/dev`、`/proc`、`/sys`
 - 如果觉得进入容器麻烦可像AI索要一个启动脚本👀
