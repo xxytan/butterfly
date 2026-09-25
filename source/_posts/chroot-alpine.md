@@ -65,14 +65,14 @@ export ARCH=aarch64
 cd /data/temp
 
 # 下载包
-curl -LO ${MIRROR}/latest-stable/main/{$ARCH}/apk-tools-static-3.0.7-r0.apk
+curl -LO ${MIRROR}/latest-stable/main/{$ARCH}/apk-tools-static-3.0.8-r0.apk
 
 # 解压包
 tar -xzf apk-tools-static-*.apk
 ```
 {% note info no-icon %}
 - 示例下载的包工具是**最新稳定版**，如果想用测试版，仅需把`latest-stable`替换为`edge`，下文依旧
-- `3.0.7-r0`为我更新此篇文章时的最新版本，可直接打开您的镜像源去查看最新版本并自行替换
+- `3.0.8-r0`为我更新此篇文章时的最新版本，可直接打开您的镜像源去查看最新版本并自行替换
 {% endnote %}
 
 ### 初始化
@@ -177,6 +177,15 @@ chroot ${CHROOT_DIR} /bin/login
 修改一下丑丑的主机名：
 ```bash
 hostname <hostname>
+```
+
+使用OpenRC：
+```bash
+mkdir -p /run/openrc
+touch /run/openrc/softlevel
+
+# 启用OpenRC
+openrc
 ```
 
 **至此，就尽情享受你的掌上 Alpine Linux 叭！**
