@@ -15,9 +15,8 @@ categories: 教程
 
 {% note warning %}
 
-如果您正在使用`zeas.top`（包括`vercel.zeas.top`、`netlify.zeas.top`）优选域名，请先暂时使用其他优选域名，该优选域名将计划转移，后续可能会删除其解析记录
-
-*于2026/07/31通知*
+`*.zeas.top`解析记录已删除，`224322.xyz`不再做优选域名，请使用的各位尽快解析到其他优选域名
+*2026/09/26*
 
 {% endnote %}
 
@@ -116,7 +115,6 @@ Netlify可以选择使用已有的SSL证书，只需在 **域名管理（Domain 
 
 CF Workers & Pages:
 - ~~`zeas.top`~~
-- `224322.xyz`
 - `www.shopify.com`
 - `*.bilibiliapp.cn`
 - `*.cf.090227.xyz`
