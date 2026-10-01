@@ -112,7 +112,7 @@ ${MIRROR}/v3.24/community" \
 {% endnote %}
 
 {% note no-icon %}
-如果你使用的是`edge`版，那么你还可以再添加一个`testing`包源：
+如果你使用的是`edge`分支，那么你还可以再添加一个`testing`包源：
 ```sh
 echo "${MIRROR}/edge/testing" >> ${CHROOT_DIR}/etc/apk/repositories
 ```
