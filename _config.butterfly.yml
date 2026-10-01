@@ -1178,7 +1178,7 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    twikoo: https://registry.npmmirror.com/twikoo/1.7.15/files/dist/twikoo.min.js
+    twikoo: https://registry.npmmirror.com/twikoo/2.0.12/files/dist/twikoo.min.js
     # typed:
     # utils:
     # valine:
