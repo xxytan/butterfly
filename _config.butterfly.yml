@@ -330,7 +330,7 @@ aside:
       link: https://github.com/xxytan
   card_announcement:
     enable: true
-    content: 评论系统叕维护🌚
+    content: 评论系统叕维护，友链页面信息暂时下线…
   card_recent_post:
     enable: true
     # If set 0 will show all
