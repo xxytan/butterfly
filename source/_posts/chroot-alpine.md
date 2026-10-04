@@ -12,7 +12,7 @@ categories: 教程
 
 ## 前言
 
-因为我一直偏向于用手机打字，也只习惯用手机键盘打字，所以也一直都是在手机上写博文。往常我都是用 Termux + TMoe 营造chroot环境，再在容器里用Linux推送代码，但是我受够了TMoe的臃肿，于是便寻求他路
+因为我一直偏向于用手机打字，也只习惯用手机键盘打字，所以也一直都是在手机上写博文。往常我都是用 Termux + TMoe 进行chroot，再在容器里用Linux推送代码，但是我受够了TMoe的臃肿，于是便寻求他路
 依据[Alpine Linux 百科](https://wiki.alpinelinux.cn/wiki/Installing_Alpine_Linux_in_a_chroot)，便有了此篇文章
 chroot可用于任何Linux、Unix发行版，此篇文章仅局限于安卓设备，包括安装chroot Alpine Linux都是在安卓内置的Linux中完成
 
@@ -47,7 +47,7 @@ export ARCH=aarch64
 ```
 
 {% note info no-icon %}
-- 镜像源我用的是[阿里云](http://mirrors.aliyun.com/alpine)的，我列举出国内几个常用的镜像源：
+- 此处我用了[阿里云](http://mirrors.aliyun.com/alpine)的镜像源，我列出几个国内常用的：
   ```
   http://mirrors.tuna.tsinghua.edu.cn/alpine  # 清华
   http://mirrors.ustc.edu.cn/alpine           # 中科大
@@ -68,7 +68,7 @@ cd /data/temp
 curl -LO ${MIRROR}/latest-stable/main/{$ARCH}/apk-tools-static-3.0.8-r0.apk
 
 # 解压包
-tar -xzf apk-tools-static-*.apk
+tar xzvf apk-tools-static-*.apk
 ```
 {% note info no-icon %}
 - 示例下载的包工具是**最新稳定版**，如果想用测试版，仅需把`latest-stable`替换为`edge`，下文依旧
@@ -124,7 +124,7 @@ chroot ${CHROOT_DIR} /bin/su -l
 ```
 
 {% note warning no-icon %}
-也可以使用以下命令进入容器，但是变量`HOME`会出错，即家目录出错（似乎仅限安卓）：
+也可以使用以下命令进入容器，但是变量`HOME`会出错，即家目录出错~~（似乎仅限安卓）~~：
 ```sh
 chroot ${CHROOT_DIR} /bin/ash -l
 ```
@@ -213,4 +213,5 @@ openrc
   ```
 - Linux的环境变量在终端结束后会被清除，下次如果在用到`${CHROOT_DIR}`，在未设置变量的情况下会报错，建议直接使用容器根目录的在宿主机的绝对路径
 - 在使用完容器后建议卸载`/dev`、`/proc`、`/sys`
-- 如果觉得进入容器麻烦可像AI索要一个启动脚本👀
+- 如果觉得进入容器麻烦可向AI索要一个启动脚本👀
+- Linux、Unix用着不同内核，自然实现逻辑也不大一致，所以不要想着在你的Linux上chroot运行Unix，反之也一样
