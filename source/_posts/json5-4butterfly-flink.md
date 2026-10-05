@@ -20,6 +20,7 @@ description: 让你的 Butterfly 友链页支持从 json5 抓取友链信息
 编辑主题文件夹下的`layout/includes/page/flink.pug`：
 1. 原第七行后新增一行，用于引入 json5 支持：
    ```diff
+   @@ -7 +7,2 @@
      if flink_url || random
        - const linkData = flink_url ? false : site.data.link || false
    +   script(src="https://registry.npmmirror.com/json5/latest/files/dist/index.min.js")   // 我是第八行
@@ -30,11 +31,12 @@ description: 让你的 Butterfly 友链页支持从 json5 抓取友链信息
 
 2. 修改原48到50行，以启用 json5：
    ```diff
+   @@ -48,3 +49,4 @@
      fetch("!{url_for(flink_url)}")
    -   .then(response => response.json())
    +   .then(response => response.text())
    +   .then(text => JSON5.parse(text))
-       .then(add)
+       // 省略…
    ```
 
 > [点我](https://raw.githubusercontent.com/xxytan/butterfly/main/themes/butterfly/layout/includes/page/flink.pug)去看修改后的示例
