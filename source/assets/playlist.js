@@ -656,6 +656,12 @@ const ap = new APlayer({
       artist: 'Los del Rio',
       url: `${BASE_URL}/Macarena - Los del Rio.mp3`,
       cover: `${BASE_URL}/cover/Macarena - Los del Rio.png`
+    },
+    {
+      name: '火车',
+      artist: '罗大佑',
+      url: `${BASE_URL}/火车 - 罗大佑.mp3`,
+      cover: `${BASE_URL}/cover/火车 - 罗大佑.png`
     }
   ]
 });

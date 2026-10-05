@@ -3,7 +3,7 @@ title: 友情链接
 date: 2026-01-01 13:51:39
 top_img: transparent
 type: 'link'
-flink_url: 'https://bucket.oxue.de/links.json5'
+flink_url: 'http://ftp.oxue.de/json/blog/links.json5'
 random: true
 ---
 
