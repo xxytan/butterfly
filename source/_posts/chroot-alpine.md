@@ -150,11 +150,8 @@ apk add bash \
 # 安装 doas（类似于 sudo）
 apk add doas
 
-# 新增用户
-adduser <username>
-
-# 添加新用户到组 wheel
-addgroup <username> wheel
+# 新增组为 wheel 的用户
+adduser <username> -G wheel
 
 # 准许组 wheel 的用户使用 doas
 echo "permit persist :wheel" >> /etc/doas.d/20-wheel.conf
