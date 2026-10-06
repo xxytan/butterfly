@@ -27,7 +27,7 @@ comments: false
 |框架|主题|时间|状态|使用原因|
 |-|-|-|-|-|
 |Hexo|[Fluid](https://github.com/fluid-dev/hexo-theme-fluid)|≈1m||好其MD2的简洁设计|
-|Hexo|[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)|3~4m|✔|觉得前主题有些许单调<br>好其美观且功能强大|
+|Hexo|[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)|≈7m|✔|觉得前主题有些许单调<br>好其美观且功能强大|
 |Hexo|[AnZhiYu](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/)|≈1m||跟风，觉得很Modern|
 |Hexo|[NexT](https://github.com/next-theme/hexo-theme-next)|≈1m||追求更简洁、强大的主题|
 |Astro|[Mizuki](https://github.com/matsuzaka-yuki/mizuki)|≈1m||博客框架变更<br>好其对新手友好，且美观、功能强大|
@@ -39,11 +39,11 @@ comments: false
 
 ## 您的隐私
 
-本站使用利于保护您隐私的统计服务—[Umami Self-hosted](https://anal.224322.xyz)，收集的数据仅用于站点访问数据统计，不做其他任何用途
+本站使用利于保护您隐私的统计服务—[自托管 Umami](https://anal.224322.xyz)，收集的数据仅用于站点访问数据统计，不做其他任何用途
 
 ## 其他
 
-- 本站由[自托管 Umami]https://anal.224322.xyz/share/87SXXBFXv3hAigIL)提供站点访问数据统计服务
+- 本站由[自托管 Umami](https://anal.224322.xyz/share/87SXXBFXv3hAigIL)提供站点访问数据统计服务
 - 本站由[Twikoo](https://224322.xyz/twikoo/)提供文章评论服务
 - 本站部分背景抓自[UApiPro](https://uapis.cn/api/v1/image/bing-daily?resolution=1080)
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)

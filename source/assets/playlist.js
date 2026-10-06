@@ -662,6 +662,12 @@ const ap = new APlayer({
       artist: '罗大佑',
       url: `${BASE_URL}/火车 - 罗大佑.mp3`,
       cover: `${BASE_URL}/cover/火车 - 罗大佑.png`
+    },
+    {
+      name: 'A Little Story',
+      artist: 'Valentin',
+      url: `${BASE_URL}/A Little Story - Valentin.mp3`,
+      cover: `${BASE_URL}/cover/A Little Story - Valentin.png`
     }
   ]
 });
