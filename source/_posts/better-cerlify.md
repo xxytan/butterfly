@@ -109,7 +109,7 @@ Netlify可以选择使用已有的SSL证书，只需在 **域名管理（Domain 
 {% note success no-icon %}
 
 致谢个人维护者
-[邢平cn](https://xingpingcn.top)、[CMLiu](https://blog.cmliussss.com)、ktff
+[邢平cn](https://xingpingcn.top)、[CMLiu](https://blog.cmliussss.com)、ktff、烤鱼
 
 {% endnote %}
 
@@ -118,13 +118,16 @@ CF Workers & Pages:
 - `www.shopify.com`
 - `*.bilibiliapp.cn`
 - `*.cf.090227.xyz`
+- `*.cloudflare.19931110.xyz`
 
 Vercel:
 - ~~`vercel.zeas.top`~~
 - `vercel-cname.xingpingcn.top`
 - `cname.vercel-dns.com` *官方；仅必要时*
+- `*.18615615.xyz`
 
 Netlify
 - ~~`netlify.zeas.top`~~
 - `netlify-cname.xingpingcn.top`
 - `apex-loadbalancer.netlify.com` *官方*
+- `*.netlify.18615615.xyz`
