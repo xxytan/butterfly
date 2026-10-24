@@ -668,6 +668,12 @@ const ap = new APlayer({
       artist: 'Valentin',
       url: `${BASE_URL}/A Little Story - Valentin.mp3`,
       cover: `${BASE_URL}/cover/A Little Story - Valentin.png`
+    },
+    {
+      name: 'БРОДЯГА',
+      artist: 'Эльбрус Джанмирзоев',
+      url: `${BASE_URL}/БРОДЯГА - Эльбрус Джанмирзоев.mp3`,
+      cover: `${BASE_URL}/cover/БРОДЯГА - Эльбрус Джанмирзоев.png`
     }
   ]
 });
