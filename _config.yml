@@ -7,6 +7,10 @@ title: 傲雪の
 subtitle: Kent's blog
 description: '无聊的一天搭配神经的我～'
 keywords:
+  - 傲雪の
+  - Kent's blog
+  - Xytan's website
+  - xxytan
 author: Kentural
 language: zh-CN
 timezone: Asia/Shanghai
@@ -106,8 +110,12 @@ search:
 
 feed:
   enable: true
-  type: atom
-  path: rss.xml
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss.xml
   limit: 0
   hub:
   content: true
@@ -116,3 +124,14 @@ feed:
   order_by: -date
   icon: /assets/favicon_feed.webp
   autodiscovery: true
+
+# Sitemap
+sitemap:
+  status: true
+  path: sitemap.xml
+  rel: false
+  tags: false
+  categories: false
+  exclude:
+    - /404.html
+    - /gallery

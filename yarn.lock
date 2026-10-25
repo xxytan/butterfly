@@ -747,6 +747,11 @@ hexo-generator-category@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
+hexo-generator-custom-sitemap@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/hexo-generator-custom-sitemap/-/hexo-generator-custom-sitemap-1.0.6.tgz#02fc2ef7f3b42967fa517c5093d93680baa5d7b3"
+  integrity sha512-n8wfPD85Wxfwo44RLjA5ik4QK/kuohCJ9iWSMOf0Opc5b0zOk2SeWv6fVxRBiGLlZBiKco4ruRTqBRusqDarhA==
+
 hexo-generator-feed@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/hexo-generator-feed/-/hexo-generator-feed-4.0.0.tgz#6cc57eb8ec63c2ac75580c64a24055243bb6f42b"
