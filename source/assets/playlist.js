@@ -674,6 +674,12 @@ const ap = new APlayer({
       artist: 'Эльбрус Джанмирзоев',
       url: `${BASE_URL}/БРОДЯГА - Эльбрус Джанмирзоев.mp3`,
       cover: `${BASE_URL}/cover/БРОДЯГА - Эльбрус Джанмирзоев.png`
+    },
+    {
+      name: 'Lujon',
+      artist: 'Henry Mancini',
+      url: `${BASE_URL}/Lujon - Henry Mancini.mp3`,
+      cover: `${BASE_URL}/cover/Lujon - Henry Mancini.png`
     }
   ]
 });
