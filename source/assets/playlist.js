@@ -680,6 +680,12 @@ const ap = new APlayer({
       artist: 'Henry Mancini',
       url: `${BASE_URL}/Lujon - Henry Mancini.mp3`,
       cover: `${BASE_URL}/cover/Lujon - Henry Mancini.png`
+    },
+    {
+      name: 'Promise of the Forgotten',
+      artist: '山冈晃',
+      url: `${BASE_URL}/Promise of the Forgotten - 山冈晃.mp3`,
+      cover: `${BASE_URL}/cover/Promise of the Forgotten - 山冈晃.png`
     }
   ]
 });
