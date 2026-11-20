@@ -275,7 +275,7 @@ footer:
             - title: 资源加速
               url: https://speed.oxue.de
             - title: 静态资源托管
-              url: http://ftp.oxue.de
+              url: https://assets.oxue.de
             - title: 探针
               url: https://status.oxue.de
     - content:
@@ -855,7 +855,7 @@ beautify:
   # Specify the field to beautify (site or post)
   field: site
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
-  title_prefix_icon: '\f101'
+  title_prefix_icon: '\f1dd'
   # Specify the color of the title prefix icon, such as '#F47466'
   title_prefix_icon_color:
 
@@ -1101,6 +1101,27 @@ inject:
     - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     - <link rel="stylesheet" href="https://registry.npmmirror.com/aplayer/1.10.1/files/dist/APlayer.min.css">
+    - '<style>
+        .aplayer {
+          color: #4c4948;
+        }
+        .container .aplayer {
+          margin: 0 0 20px;
+        }
+        .container .aplayer ol,
+        .container .aplayer ul {
+          margin: 0;
+          padding: 0;
+        }
+        .container .aplayer li {
+          margin: 0;
+          padding: 0 15px;
+        }
+        .container .aplayer li::before {
+          content: none;
+        }
+      </style>'
+
   bottom:
     - <div id="aplayer"></div>
     - <script src="https://registry.npmmirror.com/aplayer/1.10.1/files/dist/APlayer.min.js"></script>
